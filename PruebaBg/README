@@ -1,0 +1,5 @@
+1. Abrir su IDE en este caso usaremos Visual Studio code 
+2. Archivo, abrir carpeta, Nos Ubicamos en la Carpeta del proyecto.
+3. Abrir la terminal 
+2. Ejecutar el comando npx cucumber-js
+3. Se procede a la ejecución de todo los step de los casos indicados en feature.
