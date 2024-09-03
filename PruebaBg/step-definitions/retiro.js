@@ -3,8 +3,8 @@ const { expect } = require('@playwright/test');
 
 Given('he iniciado sesión en el sistema', async function () {
   await this.page.goto('https://parabank.parasoft.com/parabank/index.htm');
-  await this.page.fill('input[name="username"]', 'juanperez');
-  await this.page.fill('input[name="password"]', 'secreto123');
+  await this.page.fill('input[name="username"]', 'Vallolet1234');
+  await this.page.fill('input[name="password"]', 'pruebates*');
   await this.page.click('input[value="Log In"]');
 });
 
